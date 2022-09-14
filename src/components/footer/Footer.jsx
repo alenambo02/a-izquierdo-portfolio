@@ -1,4 +1,5 @@
 import React from 'react';
+import './footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -34,7 +35,7 @@ function Footer () {
         <FontAwesomeIcon icon={faGithub} size= '2x' />
         </a>
 
-        <a href="https://www.linkedin.com/in/alejandra-n-izquierdo-b8488516b/">
+        <a href="https://www.linkedin.com/in/alejandra-izquierdo-b8488516b/">
         <FontAwesomeIcon icon={faLinkedin} size= '2x' />
         </a>
         

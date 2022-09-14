@@ -1,6 +1,5 @@
-// import logo from './logo.svg';
-import React, { Component } from "react";
-import './App.css';
+// import components created for application based on order
+import React from "react";
 import Header from './components/header/Header'
 import Navbar from './components/navbar/Navbar'
 import About from './components/about/About'
@@ -8,20 +7,17 @@ import Portfolio from './components/portfolio/Portfolio'
 import Footer from './components/footer/Footer'
 
 
-class App extends Component {
-    render() {
+function App () {
       return (
-        <div  className="pending">
-        <Header />
-        <Navbar />
-        <About />
-        <Portfolio />
-        <Footer />
-
-        </div>
+        <>
+          <Header />
+          <Navbar />
+          <About />
+          <Portfolio />
+          <Footer />
+        </>
       );
     }
-  }
 
 export default App;
 
