@@ -6,4 +6,7 @@ footer {
     bottom:0;
     right:0;
   }
-  
+/* spacing for icons */
+  a {
+    padding: 15px;
+  }

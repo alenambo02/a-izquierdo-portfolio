@@ -1,0 +1,38 @@
+.profilePic {
+    background-color: var(--color-main);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 70px;
+    border-radius: 12rem 12rem 0 0;
+    padding: 10px 0 0 0;
+    overflow: hidden;
+    
+}
+
+.header__Cont {
+    text-align: center;
+    height: 100%;
+    position: relative;
+    margin-top: 100px;
+   
+}
+
+/* scroll down  */
+.scroll_down {
+    position: absolute;
+    right: -2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.headerBtns {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
