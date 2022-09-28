@@ -6,13 +6,14 @@ import { faUser } from '@fortawesome/free-solid-svg-icons';
 import { faLightbulb } from '@fortawesome/free-solid-svg-icons';
 import { faDiagramProject } from '@fortawesome/free-solid-svg-icons';
 import { faAddressBook } from '@fortawesome/free-solid-svg-icons';
-
+import {useState} from 'react'
 
 
 const Navbar = () => {
+    const [currentNav, setCurrentNav] = useState('#header')
     return (
         <nav>
-            <a href='#header'>
+            <a href='#' className={currentNav === '#header' ? 'active' : ''}>
                 <FontAwesomeIcon icon={faHouse}/>
             </a>
             <a href='#about'>

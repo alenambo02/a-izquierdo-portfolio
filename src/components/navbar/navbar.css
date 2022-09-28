@@ -1,0 +1,25 @@
+nav {
+    background-color: black;
+    width: max-content;
+    display: block;
+    position: fixed;
+    z-index: 2;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 15px;
+    bottom: 20px;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 100px;
+    backdrop-filter: blur(10px);
+
+}
+
+nav a {
+    border-radius: 50%;
+}
+
+nav a.active {
+    background-color: var(--color-background);
+    color: var(--color-blanco)
+}
