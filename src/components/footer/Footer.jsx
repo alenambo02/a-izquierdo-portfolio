@@ -9,8 +9,9 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function Footer () {
     return (
-    <footer className="w-100 mt-auto bg-dark p-4">
-      <div className="container text-center mb-4">
+      <footer>
+    {/* // <footer className="w-100 mt-auto bg-dark p-4"> */}
+      {/* <div className="container text-center mb-4">
         <h4>
           Made with{' '}
           <span
@@ -39,7 +40,7 @@ function Footer () {
         <FontAwesomeIcon icon={faLinkedin} size= '2x' />
         </a>
         
-      </div>
+      </div> */}
     </footer>
     )
 }

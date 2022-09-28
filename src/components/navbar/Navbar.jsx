@@ -10,22 +10,22 @@ import {useState} from 'react'
 
 
 const Navbar = () => {
-    const [currentNav, setCurrentNav] = useState('#header')
+    const [currentNav, setCurrentNav] = useState('#')
     return (
         <nav>
-            <a href='#' className={currentNav === '#header' ? 'active' : ''}>
+            <a href='#header' onClick={() => setCurrentNav('#header')} className={currentNav === '#header' ? 'active' : ''}>
                 <FontAwesomeIcon icon={faHouse}/>
             </a>
-            <a href='#about'>
+            <a href='#about' onClick={() => setCurrentNav('#about')} className={currentNav === '#about' ? 'active' : ''}>
                 <FontAwesomeIcon icon={faUser}/>
             </a>
-            <a href='#skills'> 
+            <a href='#skills' onClick={() => setCurrentNav('#skills')} className={currentNav === '#skills' ? 'active' : ''}> 
                 <FontAwesomeIcon icon={faLightbulb}/>
             </a>
-            <a href='#portfolio'>
+            <a href='#portfolio' onClick={() => setCurrentNav('#portfolio')} className={currentNav === '#portfolio' ? 'active' : ''}>
                 <FontAwesomeIcon icon={faDiagramProject}/>
             </a>
-            <a href='#contact'>
+            <a href='#contact' onClick={() => setCurrentNav('#contact')} className={currentNav === '#contact' ? 'active' : ''}>
                 <FontAwesomeIcon icon={faAddressBook}/>
             </a>
         </nav>
