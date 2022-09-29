@@ -1,26 +1,28 @@
 nav {
-    background-color: black;
+    background-color: rgb(94, 94, 94);
     width: max-content;
     display: block;
     position: fixed;
     z-index: 2;
     left: 50%;
     transform: translateX(-50%);
-    padding: 5px 20px;
-    bottom: 30px;
+    padding: 15px 50px;
+    bottom: 200px;
     display: flex;
-    gap: 0.8rem;
+    gap: 2rem;
     border-radius: 100px;
     backdrop-filter: blur(10px);
 
 }
 
 nav a {
-    /* background-color: transparent; */
+    background-color: transparent;
     border-radius: 50%;
+    padding: 5px;
 }
 
 nav a.active {
     background-color: var(--color-background);
-    color: var(--color-blanco)
+    color: var(--color-blanco);
+    padding: 10px 15px;
 }

@@ -5,13 +5,13 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
-// import { fa } from '@fortawesome/free-brands-svg-icons';
+
 
 function Footer () {
     return (
-      <footer>
-    {/* // <footer className="w-100 mt-auto bg-dark p-4"> */}
-      {/* <div className="container text-center mb-4">
+    
+    <footer>
+      <div className='footer__copyright'>
         <h4>
           Made with{' '}
           <span
@@ -27,7 +27,7 @@ function Footer () {
         </h4>
       </div>
 
-      <div className="container text-center mb-4 ">
+      <div className="footer__socials">
         <a className= "mr-4" href="https://gmail.google.com/inbox/">
         <FontAwesomeIcon icon={faEnvelope} size= '2x' />
         </a>
@@ -40,9 +40,9 @@ function Footer () {
         <FontAwesomeIcon icon={faLinkedin} size= '2x' />
         </a>
         
-      </div> */}
+      </div>
     </footer>
-    )
+  )
 }
 
-export default Footer;
+export default Footer

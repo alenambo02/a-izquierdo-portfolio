@@ -1,12 +1,40 @@
 /* Footer component css */
 footer {
-    color: white;
-    position:absolute;
-    left:0;
-    bottom:0;
-    right:0;
-  }
-/* spacing for icons */
-  a {
-    padding: 15px;
-  }
+    background: rgb(46, 46, 46);
+    padding: 3rem 0;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 7rem;
+}
+
+footer a {
+    color: var(--color-background);
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.footer__socials a{
+  display: flex;
+  background-color: var(--color-background);
+  color: var(--color-blanco);
+  padding: 0.5rem;
+  border-radius: 0.7rem;
+  border: 1px solid transparent;
+}
+
+.footer__socials a:hover{
+  background-color: transparent;
+}
+
+.footer__copyright {
+    margin-bottom: 3rem; 
+}
+
+.footer__copyright h4 {
+   color: rgb(250, 242, 242);
+   font-weight: 200;
+}
