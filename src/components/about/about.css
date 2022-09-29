@@ -19,14 +19,14 @@ section {
 /* ================MEDIA QUERIES --responsiveness============================= */
 @media screen and (max-width: 1024px) {
    section {
-      margin: 20rem 0rem 50rem;
+      margin: 30rem 0rem;
   }
 
 }
 
 @media screen and (max-width: 600px) {
       section {
-      margin: 10rem 0rem;
+      margin: 15rem 0rem;
   }
      .about__content {
          margin: 1.5rem 0;
