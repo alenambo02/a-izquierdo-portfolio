@@ -1,20 +1,19 @@
 import React from 'react';
 import './header.css';
-import Me from '../../assets/profilepic.png'
+import Me from '../../assets/smallerpic.png'
 import ResumeHelper from '../../utils/resumeHelper';
-// import HeaderSocials from './headersocials';
-
+import HeaderSocials from './headersocials';
 
 
 const Header = () => {
     return (
-    <header id='header' className='container header__container'>
-        <div >
+    <header id='header'>
+        <div className='container header__container'>
         <h5>Hi I'm</h5>
         <h1>Alejandra Izquierdo</h1>
-        <h5 className='textlight'>Junior Full-Stack Developer</h5>
+        <h5 className='textlight'>Full-Stack Developer</h5>
         <ResumeHelper/>
-        {/* <HeaderSocials/> */}
+        <HeaderSocials/>
 
         <div className='box'>
             <div className='profilePic'>
@@ -22,7 +21,7 @@ const Header = () => {
             </div>
         </div>
 
-        {/* <a href='#contact' className='scroll_down'>Scroll Down</a> */}
+        <a href='#contact' className='scroll_down'>Scroll Down</a>
         </div>     
     </header>
     )

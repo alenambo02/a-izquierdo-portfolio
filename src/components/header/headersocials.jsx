@@ -9,11 +9,11 @@ const HeaderSocials = () => {
 return (
     <div className='header__socials'>
     <a href="https://github.com/alenambo02?tab=repositories">
-    <FontAwesomeIcon icon={faGithub} size= '2x' />
+    <FontAwesomeIcon icon={faGithub}/>
     </a>
 
     <a href="https://www.linkedin.com/in/alejandra-izquierdo-b8488516b/">
-    <FontAwesomeIcon icon={faLinkedin} size= '2x' />
+    <FontAwesomeIcon icon={faLinkedin}/>
     </a>
     </div>
 )
