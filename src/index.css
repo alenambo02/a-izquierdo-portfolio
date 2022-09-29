@@ -13,11 +13,11 @@
 :root {
 /* color schema (change me here) */
 --color-background: rgb(24, 21, 62);
---color-background-alt: rgb(160, 160, 220);
---color-main: rgb(204, 156, 223);
---color-main-alt: rgb(108, 32, 146);
+--color-background-variant: rgb(64, 70, 98);
+--color-main: rgb(196, 126, 204);
+--color-main-variant: rgb(146, 51, 210);
 --color-blanco: rgb(241, 241, 241);
---color-light: rgb(152, 214, 237);
+--color-light: rgb(56, 175, 218);
 --color-dark: black;
 
 /* responsive part */
@@ -79,7 +79,6 @@ h1 {
 
 section {
   margin-top: 8rem;
-  height: 100vh;
 }
 
 section > h2, 
