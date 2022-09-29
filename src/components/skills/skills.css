@@ -20,15 +20,15 @@
 
 .skills__container > div h3 {
     color: var(--color-main);
-    text-align: center;
     margin-bottom: 2rem;
+    text-align: center;
 }
 
 .skills__content {
     display: grid;
     grid-template-columns: 1fr 1fr;
     row-gap: 2rem;
-    column-gap: 5rem;
+    /* column-gap: 5rem; */
     
 }
 
@@ -53,7 +53,7 @@
     .skills__container > div {
         width: 80%;
         padding: 2rem;
-        margin: 0 auto;
+       
     }
 
     .skills__content {
@@ -62,12 +62,11 @@
 }
 
 @media screen and (max-width: 600px) {
-    .skills__container {
-        gap: 1rem;
-    }
+  
 
     .skills__container > div {
         width: 100%;
         padding: 2rem 1rem;
+        
     }
 }

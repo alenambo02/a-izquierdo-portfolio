@@ -15,6 +15,7 @@ footer a {
     display: flex;
     justify-content: center;
     gap: 3rem;
+    /* padding-bottom: 100px; */
 }
 
 .footer__socials a{
@@ -38,3 +39,12 @@ footer a {
    color: rgb(250, 242, 242);
    font-weight: 200;
 }
+
+/* =====================================MEDIA QUERIES========================================================== */
+@media screen and (max-width:600px) {
+  .footer__socials {
+      margin-bottom: 2.6rem;
+  }
+}
+
+

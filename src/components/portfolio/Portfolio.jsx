@@ -3,7 +3,9 @@ import './portfolio.css';
 import CAFE from '../../assets/debugcafe.png'
 import COOKBOOK from '../../assets/cookbook.png'
 import SCHEDULER from '../../assets/scheduler.png'
+import SOCIALMEDIA from '../../assets/backend.png'
 import NOTETAKER from '../../assets/notetaker.png'
+import TEXTEDITOR from '../../assets/texteditor.png'
 
 const data = [
     {
@@ -29,10 +31,10 @@ const data = [
     },
     {
         id:4,
-        image: SCHEDULER,
-        title: 'School Scheduler',
-        github: 'https://github.com/alenambo02/school-scheduler',
-        demo: 'https://alenambo02.github.io/school-scheduler/'
+        image: SOCIALMEDIA,
+        title: 'Backend for a Social Media Platform',
+        github: 'https://github.com/alenambo02/chrip-chirp',
+        demo: 'https://github.com/alenambo02/chrip-chirp'
     },
     {
         id:5,
@@ -43,10 +45,10 @@ const data = [
     },
     {
         id:6,
-        image: NOTETAKER,
-        title: 'School Scheduler',
-        github: 'https://github.com/alenambo02/school-scheduler',
-        demo: 'https://alenambo02.github.io/school-scheduler/'
+        image: TEXTEDITOR,
+        title: 'Offline & Browser Text Editor',
+        github: 'https://github.com/alenambo02/text-editor',
+        demo: 'https://evening-cliffs-79205.herokuapp.com/'
     }
     
 ]
