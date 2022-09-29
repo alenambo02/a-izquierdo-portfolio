@@ -6,8 +6,8 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 const Skills = () => {
   return (
     <section id="skills">
-      <h5>What Skills I Have</h5>
-      <h2>My experience</h2>
+      <h5>Gain insight on my</h5>
+      <h2>Skills</h2>
 
       <div className='container skills__container'>
         <div className='technical__skills'>

@@ -14,10 +14,10 @@
 /* color schema (change me here) */
 --color-background: rgb(24, 21, 62);
 --color-background-variant: rgb(64, 70, 98);
---color-main: rgb(196, 126, 204);
---color-main-variant: rgb(146, 51, 210);
+--color-main: rgb(222, 176, 239);
+--color-main-variant: rgb(45, 0, 244);
 --color-blanco: rgb(241, 241, 241);
---color-light: rgb(56, 175, 218);
+--color-light: rgb(243, 40, 179);
 --color-dark: black;
 
 /* responsive part */
@@ -110,7 +110,7 @@ a:hover {
   display: inline-block;
   color: var(--color-main);
   cursor: pointer;
-  border: 1px solid var(--color-main-alt);
+  border: 1px solid var(--color-main-variant);
   transition: var(--transitionV);
   padding: 0.75rem 1.2rem;
   border-radius: 0.4rem;
