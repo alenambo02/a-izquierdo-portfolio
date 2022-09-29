@@ -76,14 +76,7 @@ const Portfolio = () => {
                 )
             })
            }
-            
-        
          </div>  
-        
-        
-        
-        
-        
         </section>
     )
 }
