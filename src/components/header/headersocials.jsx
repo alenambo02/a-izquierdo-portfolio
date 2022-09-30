@@ -12,7 +12,7 @@ return (
     <FontAwesomeIcon icon={faGithub}/>
     </a>
 
-    <a href="https://www.linkedin.com/in/alejandra-izquierdo-b8488516b/">
+    <a href="https://www.linkedin.com/in/alenizquierdo/">
     <FontAwesomeIcon icon={faLinkedin}/>
     </a>
     </div>

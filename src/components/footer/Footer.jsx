@@ -28,15 +28,15 @@ function Footer () {
       </div>
 
       <div className="footer__socials">
-        <a className= "mr-4" href="https://gmail.google.com/inbox/">
+        <a className= "mr-4" href="https://gmail.google.com/inbox/" target='#'>
         <FontAwesomeIcon icon={faEnvelope} size= '2x' />
         </a>
 
-        <a href="https://github.com/alenambo02?tab=repositories">
+        <a href="https://github.com/alenambo02?tab=repositories" target='#'>
         <FontAwesomeIcon icon={faGithub} size= '2x' />
         </a>
 
-        <a href="https://www.linkedin.com/in/alejandra-izquierdo-b8488516b/">
+        <a href="https://www.linkedin.com/in/alenizquierdo/" target='#'>
         <FontAwesomeIcon icon={faLinkedin} size= '2x' />
         </a>
         
