@@ -5,6 +5,11 @@ This portfolio was created to display various projects I have worked on that dem
 
 To visit the deployed application click here: https://alenambo02.github.io/a-izquierdo-portfolio/
 
+## Technologies Used
+- React 
+- JSX
+- HTML 5
+- CSS
 
 ## Live Demo   
 
