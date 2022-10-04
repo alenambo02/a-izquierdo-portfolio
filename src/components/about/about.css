@@ -23,7 +23,7 @@ section {
 /* ================MEDIA QUERIES --responsiveness============================= */
 @media screen and (max-width: 1024px) {
   .aboutCONT {
-      margin: 20rem 0rem;
+      margin: 25rem 0rem;
   }
 
 }

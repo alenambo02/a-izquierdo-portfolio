@@ -45,19 +45,11 @@
 /* =====================================MEDIA QUERIES========================================================== */
 
 @media screen and (max-width: 1024px) {
-    .skills__container {
-        grid-template-columns: 1fr;
-   }
+    .skillsCONT {
+        margin-top: -15rem;
+    }
 
-    .skills__container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: 0 auto;
-       
-    }
-    .skills__content {
-        padding: 1rem;
-    }
+  
 }
 
 @media screen and (max-width: 600px) {

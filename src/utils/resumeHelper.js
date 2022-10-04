@@ -1,5 +1,5 @@
 import React from 'react'
-import RSM from '../assets/resume.pdf'
+import RSM from '../assets/A.IzquierdoResume.pdf'
 
 
 const ResumeHelper = () => {
