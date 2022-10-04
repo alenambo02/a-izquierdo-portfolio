@@ -12,6 +12,10 @@
 
 }
 
+h5 {
+    font-size: 15px;
+}
+
 .contact__choice {
     background: var(--color-background-variant);
     padding: 2rem;
