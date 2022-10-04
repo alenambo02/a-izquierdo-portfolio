@@ -8,10 +8,16 @@ To visit the deployed application click here: https://alenambo02.github.io/a-izq
 
 ## Live Demo   
 
-- Application preview:
+- Application preview:  
+
 ![alt text](./src/assets/portfolio.gif)
 
 ## Responsiveness Web Design   
 
-Medium and Small screen size responsiveness demo:
+- Medium and Small screen size responsiveness demo:  
+
 ![alt text](./src/assets/res.gif)
+
+## License   
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
