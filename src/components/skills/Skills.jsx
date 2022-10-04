@@ -5,7 +5,7 @@ import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 
 const Skills = () => {
   return (
-    <section id="skills">
+    <section id="skills" className='skillsCONT'>
       <h5>Gain insight on my</h5>
       <h2>Skills</h2>
 
